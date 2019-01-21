@@ -1,0 +1,28 @@
+/*hacemos que el body tenga una imagen de fondo*/
+
+body{
+background-size:cover; /*que la imagen ocupe toda la página*/
+/*añadimos transparencia a la imagen de fondo*/
+background-image: linear-gradient(to bottom, rgba(0,0,0,0.9)
+0%,rgba(0,0,0,0.9) 100%), url(../figuras/fondo.jpg);}
+
+/* Definimos la clase 'center' para las tablas*/
+
+table.center {
+margin-left:auto;
+margin-right:auto;
+ }
+
+
+
+
+
+
+
+
+
+/* Establecemos el formato para h3, h4 y p*/
+
+h3 {color:green;}
+h4 {color:blue;}
+p {color:white; font-size:14pt; font-family:"Verdana",sans-serif;}
